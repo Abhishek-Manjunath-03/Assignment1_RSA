@@ -37,7 +37,8 @@ Test Case Development: Write comprehensive test cases to verify the functionalit
 
 Automated Testing: Implement automated tests to facilitate regular testing of the logic gate functions and user interface. This will help quickly identify and resolve issues as development progresses.
 
-## Steps
+## Project Development Process for the Boolean Logic Simulator
+
 Repository Creation:
 The first step was to create a GitHub repository named "Assignment1_RSA". This repository will serve as the central location for storing all project-related code, documentation, and resources. It ensures that all team members can easily access and collaborate on the project.
 
@@ -50,12 +51,7 @@ Team 1: Responsible for implementing the basic logic gate functions (AND, OR, NO
 Team 2: Tasked with developing the input validation and user interface, ensuring that users can easily input the correct data (0 or 1) and interact with the simulator. This also includes creating a simple CLI or web interface for user interaction.
 Team 3: Focuses on writing test cases, usage examples, and documentation. This step ensures that the logic gate functions are thoroughly tested, and users understand how to use the simulator through detailed examples and clear instructions.
 
-## Project Development Process for the Boolean Logic Simulator
-The first step in the project was to create a GitHub repository named "Assignment1_RSA," which serves as the central location for storing all project-related code, documentation, and resources, ensuring easy access and collaboration among team members.
-
-Once the repository was created, access was granted to all group members by adding them as contributors, which is crucial for collaboration as it allows each member to contribute by pushing code, creating branches, and submitting pull requests.
-
-After setting up the repository, the project was divided into specific tasks. Team 1 was responsible for implementing the basic logic gate functions (AND, OR, NOT, XOR), which involved writing the core logic for the Boolean Logic Simulator. Team 2 was tasked with developing input validation and a user interface, ensuring that users could easily input the correct data (0 or 1) and interact with the simulator through a simple command-line or web interface. Team 3 focused on writing test cases, usage examples, and documentation to ensure thorough testing of the logic gate functions and to provide users with clear instructions on how to use the simulator.
+## Code Development for the Boolean Logic Simulator
 
 To maintain organization during development, each team worked on separate branches within the repository, such as branches for logic gate implementation, interface development, and testing. This branching strategy helped avoid code conflicts and allowed each team to focus on their specific tasks without interfering with others' progress.
 
@@ -68,6 +64,6 @@ To verify that the logic-gate.md file exists in the directory, the command ls lo
 To ensure the local repository was up to date with the remote repository, the latest changes were pulled with the command git pull origin master. Finally, the existence of the necessary files (README.md and logic-gate.md) was confirmed by executing ls README.md logic-gate.md.
 
 ## Development of simple CLI 
-In the development of a simple CLI for the Boolean Logic Simulator, several key steps were undertaken to ensure a smooth user experience and robust functionality. The project began by initializing a Git repository and setting up the necessary directory structure, which included the main script for the CLI. A basic command-line interface was created, prompting users to select logic gate types and input boolean values. Input validation was then implemented to ensure that users could only enter valid gate types (AND, OR, NOT, XOR) and appropriate boolean values (True/False), enhancing the reliability of the simulator. After incorporating the logic for each gate, thorough testing was conducted to verify that the CLI functioned correctly under various input scenarios. Throughout the development process, regular commits were made using Git to track changes and maintain a clear project history. This structured approach not only improved the usability of the CLI but also ensured that it was robust and error-resistant, providing users with an intuitive way to explore fundamental concepts in digital logic.
 
+During the development of a simple CLI for the Boolean Logic Simulator, several key steps were undertaken to ensure a smooth user experience and robust functionality. The project began by initializing a Git repository with `git init` and setting up the necessary directory structure, which included the main script for the CLI. A basic command-line interface was created, prompting users to select logic gate types and input boolean values. Input validation was implemented to ensure that users could only enter valid gate types (AND, OR, NOT, XOR) and appropriate boolean values (True/False), enhancing the reliability of the simulator. Thorough testing was conducted to verify that the CLI functioned correctly under various input scenarios. Throughout the development process, regular commits were made using Git to track changes, with commands such as `git add .` to stage modifications and `git commit -m ' to save the project state. Monitoring progress involved using `git status` to display the repository's current state and `git log` to track the commit history. Once the CLI was complete, changes were pushed to the remote repository with `git push origin cli-development`, and after merging the `cli-development` branch into the main branch, the team integrated the new features into the main codebase. Finally, the `cli-development` branch was deleted with `git branch -d cli-development` after a successful merge, ensuring effective version control and collaboration throughout the project.
 
