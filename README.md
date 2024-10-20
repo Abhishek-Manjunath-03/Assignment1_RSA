@@ -10,6 +10,7 @@ The task is to develop a Boolean Logic Simulator that allows users to compute ou
 ## Objective
 Task is to implement the core functionality for basic logic gates: AND, OR, NOT, and XOR. These gates perform the fundamental operations used in digital circuits.
 
+1.Basic gate logic functions
 AND Gate:
 The AND gate takes two binary inputs (0 or 1). It returns 1 if both inputs are 1; otherwise, it returns 0.
 Example: For inputs (1, 1), the output will be 1. For inputs (1, 0), the output will be 0.
@@ -25,6 +26,16 @@ Example: For input 1, the output will be 0. For input 0, the output will be 1.
 XOR Gate:
 The XOR (Exclusive OR) gate takes two binary inputs. It returns 1 if the inputs are different (i.e., one is 1 and the other is 0); otherwise, it returns 0.
 Example: For inputs (1, 0), the output will be 1. For inputs (1, 1), the output will be 0.
+
+2.Input Validation and User Interface Development
+User Input Validation: Ensure that users can only input valid boolean values (0 or 1) for the logic gates. Implement checks that validate user inputs before processing.
+
+User Interface Development: Design and create a user-friendly command-line interface (CLI) or web interface that allows users to easily select logic gates and input their values. The interface should be intuitive and guide users through the process.
+
+3.Testing and Documentation
+Test Case Development: Write comprehensive test cases to verify the functionality of each logic gate (AND, OR, NOT, XOR). Ensure that all edge cases and typical use cases are covered.
+
+Automated Testing: Implement automated tests to facilitate regular testing of the logic gate functions and user interface. This will help quickly identify and resolve issues as development progresses.
 
 ## Steps
 Repository Creation:
