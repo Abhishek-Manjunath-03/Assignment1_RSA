@@ -27,7 +27,16 @@ The XOR (Exclusive OR) gate takes two binary inputs. It returns 1 if the inputs 
 Example: For inputs (1, 0), the output will be 1. For inputs (1, 1), the output will be 0.
 
 ## Steps
-We created the repository "Assignment1_RSA" and gave access to our group members as contributers and assigned the works for each of us.
+Repository Creation:
+The first step was to create a GitHub repository named "Assignment1_RSA". This repository will serve as the central location for storing all project-related code, documentation, and resources. It ensures that all team members can easily access and collaborate on the project.
 
+Granting Access to Team Members:
+Once the repository was created, access was granted to all group members by adding them as contributors. This step is crucial for team collaboration, as it allows each member to contribute to the project by pushing code, creating branches, and submitting pull requests.
+
+Task Assignment:
+After setting up the repository, we divided the project into specific tasks and assigned each team member a responsibility:
+Team 1: Responsible for implementing the basic logic gate functions (AND, OR, NOT, XOR). This involves writing the core logic that powers the Boolean Logic Simulator.
+Team 2: Tasked with developing the input validation and user interface, ensuring that users can easily input the correct data (0 or 1) and interact with the simulator. This also includes creating a simple CLI or web interface for user interaction.
+Team 3: Focuses on writing test cases, usage examples, and documentation. This step ensures that the logic gate functions are thoroughly tested, and users understand how to use the simulator through detailed examples and clear instructions.
 
 
