@@ -39,4 +39,21 @@ Team 1: Responsible for implementing the basic logic gate functions (AND, OR, NO
 Team 2: Tasked with developing the input validation and user interface, ensuring that users can easily input the correct data (0 or 1) and interact with the simulator. This also includes creating a simple CLI or web interface for user interaction.
 Team 3: Focuses on writing test cases, usage examples, and documentation. This step ensures that the logic gate functions are thoroughly tested, and users understand how to use the simulator through detailed examples and clear instructions.
 
+## Project Development Process for the Boolean Logic Simulator
+The first step in the project was to create a GitHub repository named "Assignment1_RSA," which serves as the central location for storing all project-related code, documentation, and resources, ensuring easy access and collaboration among team members.
+
+Once the repository was created, access was granted to all group members by adding them as contributors, which is crucial for collaboration as it allows each member to contribute by pushing code, creating branches, and submitting pull requests.
+
+After setting up the repository, the project was divided into specific tasks. Team 1 was responsible for implementing the basic logic gate functions (AND, OR, NOT, XOR), which involved writing the core logic for the Boolean Logic Simulator. Team 2 was tasked with developing input validation and a user interface, ensuring that users could easily input the correct data (0 or 1) and interact with the simulator through a simple command-line or web interface. Team 3 focused on writing test cases, usage examples, and documentation to ensure thorough testing of the logic gate functions and to provide users with clear instructions on how to use the simulator.
+
+To maintain organization during development, each team worked on separate branches within the repository, such as branches for logic gate implementation, interface development, and testing. This branching strategy helped avoid code conflicts and allowed each team to focus on their specific tasks without interfering with others' progress.
+
+The next step involved creating a file to store the logic gate code, using the command touch logic-gate.md. After writing the necessary code in the file, the changes were staged and committed with the commands git add logic-gate.md and git commit -m "Added functions to simulate logic gates." The commit history was then reviewed using git log.
+
+Once development was underway, the repository was cloned to a different location or machine to facilitate collaboration, with the command git clone <repository-link>. After cloning, the remote repository link was added to maintain a connection between the local and remote repositories using git remote add origin <link>.
+
+To verify that the logic-gate.md file exists in the directory, the command ls logic-gate.md was executed. Changes were pushed to the master branch of the remote repository with the command git push -u origin master. Additional changes, such as adding a README.md file, were also pushed using git push.
+
+To ensure the local repository was up to date with the remote repository, the latest changes were pulled with the command git pull origin master. Finally, the existence of the necessary files (README.md and logic-gate.md) was confirmed by executing ls README.md logic-gate.md.
+
 
