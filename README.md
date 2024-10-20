@@ -65,5 +65,20 @@ To ensure the local repository was up to date with the remote repository, the la
 
 ## Development of simple CLI 
 
-
 During the development of a simple CLI for the Boolean Logic Simulator, several key steps were undertaken to ensure a smooth user experience and robust functionality. The project began by initializing a Git repository with git init and setting up the necessary directory structure, which included the main script for the CLI. A basic command-line interface was created, prompting users to select logic gate types and input boolean values. Input validation was implemented to ensure that users could only enter valid gate types (AND, OR, NOT, XOR) and appropriate boolean values (True/False), enhancing the reliability of the simulator. Thorough testing was conducted to verify that the CLI functioned correctly under various input scenarios. Throughout the development process, regular commits were made using Git to track changes, with commands such as git add . to stage modifications and git commit -m "Implement basic CLI for logic gate selection" to save the project state. Monitoring progress involved using git status to display the repository's current state and git log to track the commit history. Once the CLI was complete, changes were pushed to the remote repository with git push origin cli-development, and after merging the cli-development branch into the main branch, the team integrated the new features into the main codebase. Finally, the cli-development branch was deleted with git branch -d cli-development after a successful merge, ensuring effective version control and collaboration throughout the project
+
+## Testing
+The testing process ensures that the Boolean Logic Simulator operates as expected through comprehensive testing and thorough documentation. The focus is on developing robust test cases and automating the testing process.
+
+Test Case Development: The first objective is to write comprehensive test cases for each logic gate (AND, OR, NOT, XOR). These test cases must cover all edge cases and typical use cases to verify the correctness of the logic gate functions. By ensuring all possible input combinations are tested, Team 3 will guarantee the reliability of the simulator's core logic.
+
+Example: For the XOR gate, a test case would ensure that the function returns the correct output based on the following inputs:
+
+Input (0, 0): Expected Output = 0
+Input (0, 1): Expected Output = 1
+Input (1, 0): Expected Output = 1
+Input (1, 1): Expected Output = 0
+By covering both matching and differing inputs, this test case ensures the XOR gate logic is working as expected.
+Automated Testing: The team is also tasked with implementing automated tests to streamline the testing process. Automated tests will facilitate frequent and consistent testing of both the logic gate functions and the user interface. This will allow issues to be quickly identified and resolved as development progresses, ensuring continuous improvement and stability of the simulator. Automation also reduces the manual effort involved in testing, allowing for more efficient development workflows.
+
+
