@@ -1,5 +1,5 @@
 # Group 6 - Boolean Logic Simulator
-by Amogh Hemanth Likith Naresh Abhishek
+## by Amogh Hemanth Likith Naresh Abhishek
 
 ## Description
 The Boolean Logic Simulator is a simple tool that allows users to input different types of logic gates (AND, OR, NOT, XOR) and compute the output based on the given inputs. This project demonstrates fundamental concepts in electronics engineering and programming.
@@ -85,4 +85,25 @@ To ensure the functionality and reliability of the Boolean Logic Simulator, a co
 
 To manage this testing process with Git, the repository was initialized with git init, and a new branch named testing was created using git checkout -b testing. As tests were written and modified, changes were staged with git add . and committed using git commit -m "Add unit and integration tests". Throughout the testing phase, git status was used to monitor changes, and git log provided a history of commits. Once testing was complete and verified, the testing branch was merged into the main branch with git checkout main followed by git merge testing, ensuring that all tested features were integrated into the main codebase. This structured approach to testing and version control significantly improved the simulator's reliability and maintainability.
 
+## Contribution Guide
+The above assignment was given in a such a way that, the teamwork ability and the efficiency of the work is tested. Here are the contruitions showed by our team:
+# Team 1 - Gate Logic Implementation: Assigned to Amogh
+Implemented the core logic functions for the AND, OR, NOT, and XOR gates.
+Ensured accurate and with efficient logical operations by testing edge cases and handling both valid and invalid inputs.
+
+# Team 2 - Input Validation and CLI Interface: Assigned to Hemanth
+Developed the input validation system to handle user inputs, ensuring they were restricted to binary values (0, 1).
+Designed the Command Line Interface (CLI) for user interaction, making it intuitive and easy to use.
+
+# Team 3 - Testing and Documentation: Assigned to Amogh
+Designed comprehensive test cases for each logic gate, covering all possible input combinations and error conditions.
+Collaborated closely with the other teams to troubleshoot and resolve any bugs during the testing phase. 
+# Team 4 - Documentation : Assigned to Naresh and Abhishek
+Documented usage instructions and examples, explaining how to use the simulator effectively.
+
+# Amogh - Implemented basic gate logic functions and written the test cases along with examples.
+# Hemanth - Developed the corresponding input validation and a simple CLI.
+# Naresh - Responsible for writing the documentation of the whole process that was carried out by the team.
+# Abhishek - Assisting Naresh with the documentation process.
+# Likhith - Couldn't contribute much in the assignment due to system compactiblity issues
 
