@@ -10,7 +10,7 @@ The task is to develop a Boolean Logic Simulator that allows users to compute ou
 ## Steps
 We created the repository "Assignment1_RSA" and gave access to our group members as contributers and assigned the works for each of us.
 
-##Objective
+## Objective
 Task is to implement the core functionality for basic logic gates: AND, OR, NOT, and XOR. These gates perform the fundamental operations used in digital circuits.
 
 AND Gate:
